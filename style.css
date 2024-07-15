@@ -50,6 +50,9 @@ text-align: center;
 .nav-options p{
     cursor: pointer;
 }
+.bars{
+    display: none;
+}
 /* nav-bar */
 /* banner */
 .Explore-Your-Travel{
@@ -113,6 +116,227 @@ border-radius: 8px;
 }
 
 /* banner */
+/* Our-Popular-Tours */
+.Our-Popular-Tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.Our-Popular-Tours-content{
+    width: 577px;
+    height: 466px;
+    margin: 0 auto;
+    }
+    .Our-Popular-Tours-content h3{
+color: rgb(19, 19, 24);
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .Our-Popular-Tours-content p, ul > li{
+ color: rgb(90, 90, 93);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+    }
+.image{
+border-radius: 16px;
+}
+/* Our-Popular-Tours */
+/* Choose-Your-Destination */
+.Choose-Your-Destination img{
+    filter: brightness(70%);
+    width: 100%;
+    height: 300px;
+}
+.div1, .div3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.country-card{
+    position: relative;
+}
+.country{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+/* Choose-Your-Destination */
+/* Why Choose Us */
+.image-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.image1{
+    box-sizing: border-box;
+border: 1px solid rgba(251, 181, 99, 0.2);
+border-radius: 16px;
+width: 573px;
+height: 284px;
+background: rgba(251, 181, 99, 0.05);
+text-align: center;
+}
+.image3{
+    box-sizing: border-box;
+border: 1px solid rgba(41, 206, 246, 0.2);
+border-radius: 16px;
+width: 573px;
+height: 284px;
+background: rgba(41, 206, 246, 0.05);
+text-align: center;
+}
+.image2{
+    box-sizing: border-box;
+border: 1px solid rgba(233, 68, 68, 0.2);
+border-radius: 16px;
+width: 573px;
+height: 284px;
+background: rgba(233, 68, 68, 0.05);
+margin-top: 35px;
+text-align: center;
+
+}
+.image1, .image3, .image2 h4{
+    color: rgb(19, 19, 24);
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.image1, .image3, .image2 p{
+    color: rgb(90, 90, 93);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* Why Choose Us */
+/* newsletter */
+.newsletter{
+    width: 1340px;
+    height: 540px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-form input{
+    border-radius: 8px;
+border: none;
+background: rgba(19, 19, 24, 0.05);
+width: 393px;
+height: 52px;
+}
+.btn{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+background: rgb(255, 84, 0);
+border: none;
+}
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    justify-content: center;
+}
+.newsletter h3{
+    color: rgb(19, 19, 24);
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.newsletter p{
+    color: rgb(90, 90, 93);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* newsletter */
+/* A-simple-Perfect-Place-To-Get-Lost */
+.A-simple-Perfect-Place-To-Get-Lost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 130px;
+}
+.A-simple-Perfect-Place-To-Get-Lost h4{
+    color: rgb(19, 19, 24);
+font-size: 40px;
+font-weight: 800;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+}
+.A-simple-Perfect-Place-To-Get-Lost p{
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.A-simple-Perfect-Place-To-Get-Lost ul{
+    color: rgb(19, 19, 24);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-secondary{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+background: rgb(255, 84, 0);
+width: 174px;
+height: 52px;
+border: none;
+}
+
+
+/* A-simple-Perfect-Place-To-Get-Lost */
+/* Deals & Discounts */
+/* Deals & Discounts */
 
 
 
@@ -133,6 +357,99 @@ border-radius: 8px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{ 
+background: rgba(19, 19, 24, 0.05);
+padding: 2rem 0;
+margin-top: 45px;
+}
+.footer .logo{
+  margin: 2rem auto;
+}
+
+.social{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+.social i{
+    height: 44px;
+    font-size: 24px;
+}
+.footer hr{
+    margin: 2rem auto;
+}
 
 
 
@@ -145,8 +462,25 @@ border-radius: 8px;
 
 
 /* responsive small device */
-@media screen and (max-width:576px) {
-
+@media screen and (max-width:600px) {
+.nav-options{
+    display: none;
+}
+.bars{
+    display: block;
+}
+h3{
+    font-size: 26px;
+}
+.bars{
+    font-size: 26px;
+}
+.container{
+    margin: 3rem auto;
+}
+p{
+    font-size: 16px;
+}
 }
 /* responsive medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
